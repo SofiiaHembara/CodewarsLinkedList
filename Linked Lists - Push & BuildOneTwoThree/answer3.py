@@ -15,8 +15,3 @@ def build_one_two_three():
     head = push(head, 2)
     head = push(head, 1)
     return head
-
-print(push(None, 1).data)
-print(push(None, 1).next)
-print(push(Node(1), 2).data)
-print(push(Node(1), 2).next.data)
