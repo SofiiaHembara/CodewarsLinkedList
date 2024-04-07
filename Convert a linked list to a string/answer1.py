@@ -15,7 +15,3 @@ def stringify(node):
             result += f'{node.data} -> None'
         node = node.next
     return result
-
-print(stringify(Node(0, Node(1, Node(2, Node(3))))))
-print(stringify(None))
-print(stringify(Node(0, Node(1, Node(4, Node(9, Node(16)))))))
